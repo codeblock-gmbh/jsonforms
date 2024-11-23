@@ -1,2 +1,8 @@
 packages:
-  - 'packages/*'
+  - 'packages/angular-material'
+#  - 'packages/core'
+#  - 'packages/examples*'
+#  - 'packages/material-renderers'
+#  - 'packages/react'
+#  - 'packages/vanilla*'
+#  - 'packages/vue*'
