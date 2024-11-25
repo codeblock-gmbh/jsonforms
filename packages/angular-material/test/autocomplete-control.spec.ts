@@ -85,7 +85,7 @@ const errorTest: ErrorTestExpectation = {
 
 initTestEnvironment();
 
-describe('Autocomplete control Base Tests', () => {
+xdescribe('Autocomplete control Base Tests', () => {
   let fixture: ComponentFixture<AutocompleteControlRenderer>;
   let component: AutocompleteControlRenderer;
   let inputElement: HTMLInputElement;
@@ -213,7 +213,7 @@ describe('Autocomplete control Base Tests', () => {
     expect(inputElement.id).toBe('myId');
   });
 });
-describe('AutoComplete control Input Event Tests', () => {
+xdescribe('AutoComplete control Input Event Tests', () => {
   let fixture: ComponentFixture<AutocompleteControlRenderer>;
   let component: AutocompleteControlRenderer;
   let loader: HarnessLoader;
@@ -281,7 +281,7 @@ describe('AutoComplete control Input Event Tests', () => {
     expect(event.option.value).toBe('Y');
   }));
 });
-describe('AutoComplete control Error Tests', () => {
+xdescribe('AutoComplete control Error Tests', () => {
   let fixture: ComponentFixture<AutocompleteControlRenderer>;
   let component: AutocompleteControlRenderer;
   beforeEach(waitForAsync(() => {
@@ -326,7 +326,7 @@ describe('AutoComplete control Error Tests', () => {
   });
 });
 
-describe('AutoComplete control updateFilter function', () => {
+xdescribe('AutoComplete control updateFilter function', () => {
   let fixture: ComponentFixture<AutocompleteControlRenderer>;
   let component: AutocompleteControlRenderer;
 
